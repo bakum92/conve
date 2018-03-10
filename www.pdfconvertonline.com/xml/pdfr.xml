@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.11</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.1.1.50 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://pad.asp-software.org</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>PDFConvertOnline</Company_Name>
+		<Address_1>Histon</Address_1>
+		<Address_2>Street</Address_2>
+		<City_Town>Cambridge</City_Town>
+		<State_Province>Cambridge</State_Province>
+		<Zip_Postal_Code>CB49YX</Zip_Postal_Code>
+		<Country>United Kingdom</Country>
+		<Company_WebSite_URL>http://www.pdfconvertonline.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Jack</Author_First_Name>
+			<Author_Last_Name>O'Connor</Author_Last_Name>
+			<Author_Email>support@pdfconvertonline.com</Author_Email>
+			<Contact_First_Name>Jack</Contact_First_Name>
+			<Contact_Last_Name>O'Connor</Contact_Last_Name>
+			<Contact_Email>support@pdfconvertonline.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>support@pdfconvertonline.com</Sales_Email>
+			<Support_Email>support@pdfconvertonline.com</Support_Email>
+			<General_Email>support@pdfconvertonline.com</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>PDF Restrictions Remover</Program_Name>
+		<Program_Version>1.1</Program_Version>
+		<Program_Release_Month>07</Program_Release_Month>
+		<Program_Release_Day>01</Program_Release_Day>
+		<Program_Release_Year>2013</Program_Release_Year>
+		<Program_Cost_Dollars>0</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>Major Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Win2000,Win7 x32,Win7 x64,Win98,WinOther,WinServer,WinVista,WinVista x64,WinXP,Other</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info />
+		<Program_Specific_Category>Business</Program_Specific_Category>
+		<Program_Category_Class>Business::Office Suites &amp; Tools</Program_Category_Class>
+		<Program_System_Requirements />
+		<File_Info>
+			<File_Size_Bytes>2153312</File_Size_Bytes>
+			<File_Size_K>2102</File_Size_K>
+			<File_Size_MB>2.05</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>remove password, remove restrictions, pdf password, user password, owner password</Keywords>
+			<Char_Desc_45>Remove PDF password and restrictions.</Char_Desc_45>
+			<Char_Desc_80>Remove PDF user password, owner password and restrictions.</Char_Desc_80>
+			<Char_Desc_250>PDF Restrictions Remover is an efficient freeware, which allows you to remove user password, owner password and restrictions from PDF files.</Char_Desc_250>
+			<Char_Desc_450>PDF Restrictions Remover is an efficient freeware, which allows you to remove user password, owner password and restrictions from PDF files. PDF Restrictions Remover can remove all PDF restrictions: printing, filling in a form, commenting in the document, managing pages and bookmarks, modifying document, content copying for accessibility, extracting the contents of the document and signing.</Char_Desc_450>
+			<Char_Desc_2000>PDF Restrictions Remover is an efficient freeware, which allows you to remove user password, owner password and restrictions from PDF files.
+
+PDF Restrictions Remover removes PDF user password which encrypts the PDF file and prevents opening.
+
+PDF Restrictions Remover removes PDF owner password which specifies operations that should be restricted even when the document is decrypted.
+
+PDF Restrictions Remover can remove all PDF restrictions: printing, filling in a form, commenting in the document, managing pages and bookmarks, modifying document, content copying for accessibility, extracting the contents of the document and signing.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.pdfconvertonline.com/pdf-restrictions-remover.html</Application_Info_URL>
+			<Application_Order_URL>http://www.pdfconvertonline.com/pdf-restrictions-remover.html</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.pdfconvertonline.com/images/screenshots/pdfr.png</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.pdfconvertonline.com/images/icons/icon.jpg</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.pdfconvertonline.com/xml/pdfr.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.pdfconvertonline.com/download/pdfr.exe</Primary_Download_URL>
+			<Secondary_Download_URL />
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions />
+		<EULA />
+	</Permissions>
+</XML_DIZ_INFO>

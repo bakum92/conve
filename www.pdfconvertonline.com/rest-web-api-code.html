@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from www.pdfconvertonline.com/rest-web-api-code.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Mar 2018 15:45:15 GMT -->
+<head>
+<title>PDF converter REST web API - Sample source codes</title>
+<meta name="description" content="PDF converter REST web API sample source codes - The REST web API allows developers direct access to our online PDF conversions." />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="external/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="css-files/getCss.css" />
+<script type="text/javascript" src="javascript/jquery.min.js"></script>    
+<script type="text/javascript" src="javascript/custom.js"></script>
+<script type="text/javascript" src="external/jquery.masonry.min.js"></script>
+</head>
+    <body>
+        <div class="header-blackLine"></div>       
+        <div class="container">
+            <div class="row header">
+                <div class="span4">
+                    <a href="index.html">
+                        <img class="logo" src="images/header/logo.png" />
+                    </a>
+                </div>
+                <div class="span8">
+                    <div class="js-jquery-dropdown-wrapper">    
+                        <ul class="js-jquery-dropdown">       
+                            <li class="sub_menu">
+                                <a href="#">Create PDF<div class="sub_menu_arrow"></div></a>
+                                <ul>
+                                    <li>
+                                        <a href="word-to-pdf-online.html">Word to PDF</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="excel-to-pdf-online.html">Excel to PDF</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="powerpoint-to-pdf-online.html">PPT to PDF</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                     <li>
+                                        <a href="https://www.jpg-2-pdf.com/">JPG to PDF <span class="label label-important">new</span></a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                     <li>
+                                        <a href="xps-to-pdf-online.html">XPS to PDF</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="epub-to-pdf-online.html">EPUB to PDF</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="htm-to-pdf-online.html">HTML to PDF</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="web-to-pdf-online.html">Webpage to PDF</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">Convert PDF<div class="sub_menu_arrow"></div></a>
+                                <ul>
+                                    <li>
+                                        <a href="pdf-to-word-online.html">PDF to Word</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="pdf-to-excel-online.html">PDF to Excel</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="pdf-to-powerpoint-online.html">PDF to PPT</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="pdf-to-epub-online.html">PDF to EPUB</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="pdf-to-jpeg-online.html">PDF to JPG</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="pdf-to-tiff-online.html">PDF to TIFF</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="pdf-to-txt-online.html">PDF to TXT</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="pdf-to-html-online.html">PDF to HTML</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="sub_menu">
+                                <a href="#">PDF Tools<div class="sub_menu_arrow"></div></a>
+                                <ul>
+                                    <li>
+                                        <a href="compress-pdf-online.html">Compress PDF</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="scanned-pdf-ocr.html">PDF OCR</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="split-pdf-online.html">Split PDF</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="join-pdf-online.html">Join PDF</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="rotate-pdf-online.html">Rotate PDF</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="extract-pdf-online.html">Extract PDF</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="encrypt-pdf-online.html">Protect PDF</a>
+                                        <div class="dropdown-separator"></div>
+                                    </li>
+                                    <li>
+                                        <a href="remove-pdf-restrictions-online.html">Remove Password</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="header-barWrapper js-header-animation">
+                <div class="container header-bar">
+                    <div class="row">
+                        <div class="span9">
+                            <h3>REST web API</h3>
+                            <div class="header-page-description">PDF converter REST web API source codes</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="container">
+            <div class="row">
+                <div id="content" class="span9">
+                    <article class="post">
+                        <header class="entry-header" style="position:relative;">
+                            <div class="entry-meta-left">
+                                <div class="entry-date-wrap">
+                                    <a href="#" rel="bookmark">
+                                        API
+                                    </a>
+                                </div>
+                            </div>
+                            <hgroup>
+                                <h3 class="entry-title">
+                                    REST web API
+                                </h3>
+                            </hgroup>
+                            <div class="entry-meta">
+                                <span class="author">
+                                    PDF converter REST web API source codes
+                                </span>
+                            </div>
+                        </header>
+                        <div class="entry-content">
+<p>
+<script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- auto -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7009009024834738"
+     data-ad-slot="2452270708"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</p>
+               <p>The <a href="rest-web-api.html">REST web API</a> allows developers direct access to our online conversions. It provides easy access to all conversion functionalities available at PDFConvertOnline.com. Please feel free to contact us if you have any questions, comments, bug reports or customized requests.</p>
+               <p>Our REST web API is designed as easy-to-use as possible. With this API you can easily integrate a file conversion service on your website, app or software in a few minutes.</p>
+               <p><strong>Sample Form:</strong></p>
+               <p>This sample form uses the html codes listed below. Add a file, select target format, click submit button and wait for a few seconds.</p>
+               <div class="ty-full-width ty-border-left">
+     <form action="#" method="post" enctype="multipart/form-data" name="conversionform" id="conversionform">
+         <p>API Key: <input id="key" name="key" type="text" /></p>
+         <p>Local file: <input id="file" name="file" type="file" /></p>
+         <p>Target format:
+             <select name="targetformat" id="targetformat"">
+                 <option value="pdf" selected >PDF</option>
+                 <option value="docx">DOCX</option>
+                 <option value="doc">DOC</option>
+                 <option value="rtf">RTF</option>
+                 <option value="pptx">PPTX</option>
+                 <option value="epub">EPUB</option>
+                 <option value="txt">TXT</option>
+                 <option value="jpg">JPG</option>
+                 <option value="tif">TIFF</option>
+                 <option value="png">PNG</option>
+             </select>
+         </p>
+         <p><input type="submit" value="Convert" onclick="convertpdfform()" /></p>
+         <p><span id="resulttext">Conversion Results: </span></p>
+     </form>
+               </div>
+               <p>&nbsp;</p>
+               <p><strong>HTML codes:</strong></p>
+               <p>The sample html source codes to use REST web API. You can save the source codes to a html file and test it. For more html source codes check this web page <a href="https://www.aconvert.com/pdf/">https://www.aconvert.com/pdf/</a></p>
+               <p>
+<pre class="ty-full-width ty-border-left">
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Test REST Web API&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+     &lt;form action="#" method="post" enctype="multipart/form-data" name="conversionform" id="conversionform"&gt;
+         &lt;p&gt;API Key: &lt;input id="key" name="key" type="text" /&gt;&lt;/p&gt;
+         &lt;p&gt;Local file: &lt;input id="file" name="file" type="file" /&gt;&lt;/p&gt;
+         &lt;p&gt;Target format:
+             &lt;select name="targetformat" id="targetformat""&gt;
+                 &lt;option value="pdf" selected &gt;PDF&lt;/option&gt;
+                 &lt;option value="docx"&gt;DOCX&lt;/option&gt;
+                 &lt;option value="doc"&gt;DOC&lt;/option&gt;
+                 &lt;option value="rtf"&gt;RTF&lt;/option&gt;
+                 &lt;option value="pptx"&gt;PPTX&lt;/option&gt;
+                 &lt;option value="epub"&gt;EPUB&lt;/option&gt;
+                 &lt;option value="txt"&gt;TXT&lt;/option&gt;
+                 &lt;option value="jpg"&gt;JPG&lt;/option&gt;
+                 &lt;option value="tif"&gt;TIFF&lt;/option&gt;
+                 &lt;option value="png"&gt;PNG&lt;/option&gt;
+             &lt;/select&gt;
+         &lt;/p&gt;
+         &lt;p&gt;&lt;input type="submit" value="Convert" onclick="convertpdfform()" /&gt;&lt;/p&gt;
+         &lt;p&gt;&lt;span id="resulttext"&gt;Conversion Results: &lt;/span&gt;&lt;/p&gt;
+     &lt;/form&gt;
+&lt;script src="https://www.aconvert.com/js/jquery.js"&gt;&lt;/script&gt;
+&lt;script src="https://www.aconvert.com/js/jquery.form.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+  $(document).ready(function() {
+  });
+  function showResponse(responseText, statusText, xhr, $form)  {
+    resulttext.innerHTML=responseText;
+  }
+  function showError(responseText, statusText, xhr, $form)  {
+  }
+  function convertpdfform() {
+    options = {
+      success:       showResponse, 
+      error:         showError,
+      url:       "http://s2.pdfconvertonline.com/convert/api-win.php",
+    };
+    $('#conversionform').ajaxForm(options);
+    $('#conversionform').ajaxSubmit();
+    return false;
+  }
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>            
+
+               </p>
+               <p><strong>License Key:</strong></p>
+               <p>The API is limited to convert file less than 1M and for personal use only. To remove limitations you much purchase a license key. You can click the button below to make a purchase. You will get an email with key information in 24 hours after purchasing.</p>
+               <p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="DL2U2FLL4T624">
+<table>
+<tr><td><input type="hidden" name="on0" value="Months">Months</td></tr><tr><td><select name="os0">
+	<option value="1 month">1 month $ 99.00 USD</option>
+	<option value="6 months">6 months $ 499.00 USD</option>
+	<option value="12 months">12 months $ 899.00 USD</option>
+	<option value="24 months">24 months $ 1,599.00 USD</option>
+	<option value="36 months">36 months $ 2,299.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="../www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LGd4a3.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://ak1s.abmr.net/is/www.paypalobjects.com?U=/zh_XC/i/scr/pixel.gif&amp;V=3-u5Ypno0XMf1yrqqQjvIwVzYjeyPrx2HecaXqm7pWsjPFBkFP2NeYE8OTws0fiMDG&amp;I=5BC5D37972BBE20&amp;D=paypalobjects.com&amp;01AD=1&amp;" width="1" height="1">
+</form>
+               </p>
+               <p>We also provide customized services. For example: Add a specific conversion function, API URL uses your company's domain or sub-domain, deploy API on a dedicated server or VPS that your company uses only. Contact us at support@pdfconvertonline.com if you need customized services.</p>
+                </div>
+               </article>
+               </div>
+               <div id="sidebar" class="span3 widget-area">
+                        <h4 class="widget-title">Sponsored Links:</h4>
+                        <div>
+<script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- auto -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7009009024834738"
+     data-ad-slot="2452270708"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">   
+                    <div class="span6">
+                    	   Converters: <a href="online-programs.html">PDF</a>, <a href="https://www.aconvert.com/document/">Document</a>, <a href="https://www.aconvert.com/ebook/">Ebook</a>, <a href="https://www.aconvert.com/image/">Image</a>, <a href="https://www.aconvert.com/video/">Video</a>, <a href="https://www.aconvert.com/audio/">Audio</a><br />
+                         Copyright &copy; 2018 PDFConvertOnline. All rights reserved.
+                    </div>
+                    <div class="span6">
+                        <div class="footer-right">
+                            <span class="footer-company">
+                            	<a href="https://play.google.com/store/apps/details?id=com.weenysoft.word2pdf">App</a>, <a href="faqs/index.html">FAQ</a>, <a href="privacy.html" rel="nofollow">Privacy</a>, <a href="sitemap.html">Sitemap</a> <br />
+                            	support@pdfconvertonline.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<script src="../www.aconvert.com/js/jquery.js"></script>
+<script src="../www.aconvert.com/js/jquery.form.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+  });
+  function showResponse(responseText, statusText, xhr, $form)  {
+    resulttext.innerHTML=responseText;
+  }
+  function showError(responseText, statusText, xhr, $form)  {
+  }
+  function convertpdfform() {
+    options = {
+      success:       showResponse, 
+      error:         showError,
+      url:       "http://s2.pdfconvertonline.com/convert/api-win.php",
+    };
+    $('#conversionform').ajaxForm(options);
+    $('#conversionform').ajaxSubmit();
+    return false;
+  }
+</script>
+    </body>
+
+<!-- Mirrored from www.pdfconvertonline.com/rest-web-api-code.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Mar 2018 15:45:21 GMT -->
+</html>

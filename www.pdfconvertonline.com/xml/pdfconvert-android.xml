@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.11</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.1.1.51 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://pad.asp-software.org</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>PDFConvertOnline</Company_Name>
+		<Address_1>Histon</Address_1>
+		<Address_2>Street</Address_2>
+		<City_Town>Cambridge</City_Town>
+		<State_Province>Cambridge</State_Province>
+		<Zip_Postal_Code>CB49YX</Zip_Postal_Code>
+		<Country>United Kingdom</Country>
+		<Company_WebSite_URL>http://www.pdfconvertonline.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Jack</Author_First_Name>
+			<Author_Last_Name>O'Connor</Author_Last_Name>
+			<Author_Email>support@pdfconvertonline.com</Author_Email>
+			<Contact_First_Name>Jack</Contact_First_Name>
+			<Contact_Last_Name>O'Connor</Contact_Last_Name>
+			<Contact_Email>support@pdfconvertonline.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>support@pdfconvertonline.com</Sales_Email>
+			<Support_Email>support@pdfconvertonline.com</Support_Email>
+			<General_Email>support@pdfconvertonline.com</General_Email>
+			<Sales_Phone />
+			<Support_Phone />
+			<General_Phone />
+			<Fax_Phone />
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>PDFConvert for Android</Program_Name>
+		<Program_Version>1.2</Program_Version>
+		<Program_Release_Month>01</Program_Release_Month>
+		<Program_Release_Day>01</Program_Release_Day>
+		<Program_Release_Year>2017</Program_Release_Year>
+		<Program_Cost_Dollars>0</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>Major Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Android</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info>Added support for more formats such as EPUB, PPTX or XPS etc. Added PDF compressor. Prevent duplicated file conversion.</Program_Change_Info>
+		<Program_Specific_Category>Business</Program_Specific_Category>
+		<Program_Category_Class>Business::Office Suites &amp; Tools</Program_Category_Class>
+		<Program_System_Requirements>Android 2.3 and later versions</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>1464897</File_Size_Bytes>
+			<File_Size_K>1430</File_Size_K>
+			<File_Size_MB>1.40</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count>0</Expire_Count>
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>create PDF, convert PDF, secure PDF, PDF watermark, PDF app</Keywords>
+			<Char_Desc_45>A cloud PDF converter app</Char_Desc_45>
+			<Char_Desc_80>A cloud PDF converter app for android.</Char_Desc_80>
+			<Char_Desc_250>A cloud PDF converter app to easily create PDF from documents/images or convert PDF to documents/images on cloud server.</Char_Desc_250>
+			<Char_Desc_450>PDFConvert for Android is a cloud PDF converter app to easily create PDF from documents/images or convert PDF to documents/images on cloud server. PDFConvert for Android can also split PDF, join PDF, rotate PDF, extract PDF, add or remove watermark, passwords and restrictions to PDF files.</Char_Desc_450>
+			<Char_Desc_2000>PDFConvert for Android is a cloud PDF converter app to easily create PDF from documents/images or convert PDF to documents/images on cloud server.
+
+PDFConvert for Android can also split PDF, join PDF, rotate PDF, extract PDF, add or remove watermark, passwords and restrictions to PDF files.
+
+First, you choose document, image or PDF files on your Android phone, then tap the "Convert Now" button to upload your files to cloud server, the server will return output files for you to download when it finishes conversion.
+
+Notice: PDFConvert for Android works on Android 2.3 and later versions. It needs internet connection to run.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.pdfconvertonline.com/pdfconvert-android.html</Application_Info_URL>
+			<Application_Order_URL>http://www.pdfconvertonline.com/pdfconvert-android.html</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.pdfconvertonline.com/images/screenshots/pdfconvert-android-3.png</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.pdfconvertonline.com/images/icons/icon.jpg</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.pdfconvertonline.com/xml/pdfconvert-android.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>https://play.google.com/store/apps/details?id=com.pdfconvertonline.pdfconvert</Primary_Download_URL>
+			<Secondary_Download_URL>http://www.pdfconvertonline.com/download/pdfconvert.apk</Secondary_Download_URL>
+			<Additional_Download_URL_1 />
+			<Additional_Download_URL_2 />
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions />
+		<EULA />
+	</Permissions>
+</XML_DIZ_INFO>

@@ -1,0 +1,82 @@
+
+.accordion_place {
+padding-bottom: 20px;
+}
+
+.accordion_block {
+margin: 2px 0;
+}
+
+.accordion_button {	
+	margin: 0;
+	padding: 10px 0;
+	float: left;
+	list-style: none;
+	border: 1px solid #B7B7B7;
+	width: 100%;
+	cursor: pointer;
+	color: #555;
+	font-size: 12px;
+	font-weight: 700;
+	background: url(../images/content-tab/acc-plus.png) no-repeat 5px 11px #FCFCFC;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1), inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(255,255,255,.3);
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,.1), inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(255,255,255,.3);
+	box-shadow: 0 1px 0 rgba(0,0,0,.1), inset 0 1px 0 rgba(255,255,255,.5), inset 0 -1px 0 rgba(255,255,255,.3);
+	transition: background .5s;
+	-moz-transition: background .5s; /* Firefox 4 */
+	-webkit-transition: background .5s; /* Safari and Chrome */
+	-o-transition: background .5s; /* Opera */
+	}
+	
+.accordion_button .title {	
+margin-left: 30px;
+padding: 0;
+}
+
+.accordion_container {	
+	border: 1px solid #B7B7B7;
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; 
+	width: 100%;
+	background: #fff;
+	border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+}
+
+.accordion_last {	
+	border-bottom: 1px solid #B7B7B7;
+}
+
+.accordion_content {
+	padding: 20px 20px 10px;
+	font-size: 12px;
+}
+
+.acdn_on {	
+	background: url(../images/content-tab/acc-plus.png) no-repeat 5px -68px #F5F5F5;
+	border-bottom: 1px solid #B7B7B7;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+}
+	
+.acdn_over {
+	background: url(../images/content-tab/acc-plus.png) no-repeat 5px 11px #eee;
+	transition: background .5s;
+	-moz-transition: background .5s; /* Firefox 4 */
+	-webkit-transition: background .5s; /* Safari and Chrome */
+	-o-transition: background .5s; /* Opera */
+}
+.acdn_on.acdn_over {	
+	background: url(../images/content-tab/acc-plus.png) no-repeat 5px -68px #F5F5F5;
+}
+
+
+
+

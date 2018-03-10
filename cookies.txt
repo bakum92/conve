@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.paypalobjects.com	TRUE	/	FALSE	1999999999	AKA_MVT_ID	1fd4f5575d16000065fda35a2801000066080000
+.paypalobjects.com	TRUE	/	FALSE	1999999999	AKA_MVT_BUTTONS	|btn_buynowCC_LG.gif=btn_buynowCC_LG_var22.gif|
+.paypalobjects.com	TRUE	/	FALSE	1999999999	PYPF	CT-2
+
